@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Additional Information</title>
+<link rel="stylesheet" href="CSS/additional-info-style.css">
+</head>
+<body>
+<div class="hero">
+<div class="form-box">
+<div class="button-box">
+<div id="btn"></div>
+<button type="button" class="toggle-btn" onclick="login()">Enter Info</button>
+<button type="button" class="toggle-btn" onclick="signup()">Next</button>
+</div>
+<form id="login" class="input-group">
+<input type="number" class="input-field" placeholder="Enter Mobile no." required>
+<input type="number" class="input-field" placeholder="Enter Aadhar no." required>
+<input type="number" class="input-field" placeholder="Enter PAN no." required>
+<input type="Date" class="input-field" placeholder="Enter Date of Birth" required>
+<input type="text" class="input-field" placeholder="Proffesion" required>
+<input type="number" class="input-field" placeholder="Annual Income" required>
+
+</form>
+<form id="signup" class="input-group">
+<input type="number" class="input-field" placeholder="Experience in Years" required>
+<input type="text" class="input-field" placeholder="Enter Bank Name" required>
+<input type="number" class="input-field" placeholder="Enter Bank Account no." required>
+<input type="number" class="input-field" placeholder="Enter Bank IFSC Code" required>
+<input type="checkbox" class="check-box"><a href="tos.html"><span>I Accept the Terms & Conditions</span></as>
+<button type="submit" class="submit-btn">Submit</button>
+</form> 
+</div> 
+</div>
+<script>
+var x= document.getElementById("login");
+var y= document.getElementById("signup");
+var z= document.getElementById("btn");
+
+function signup(){
+x.style.left="-400px";
+y.style.left="50px";
+z.style.left="110px";
+}
+function login(){
+x.style.left="50px";
+y.style.left="450px";
+z.style.left="0px";
+}
+</script>
+</body>
+</html> 

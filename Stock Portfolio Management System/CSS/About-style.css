@@ -1,0 +1,101 @@
+body{
+margin:0;
+padding:0;
+font-family:Poppins;
+}
+.navbar{
+postion: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+flex-wrap: wrap;
+background-color: #000000;
+width: 100%;
+height: 70px;
+z-index: 1;
+}
+.nav{
+display:flex;
+justify-content:right;
+list-style:none;
+margin-right:15%;
+
+}
+.logo{
+flex: 1 1 auto;
+margin-left:1 0%;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: bold;
+font-size: 35px;
+} 
+a{
+margin: 15px;
+color:#000;
+text-decoration:none;
+text-transform:uppercase;
+color:#fff;
+}
+a:hover{
+color:#ff4545;
+}
+.banner-area{
+position:relative;
+background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("../images/bull.jpg");
+width:100%;
+height:120vh;
+background-repeat:no-repeat;
+-webkit-background-size:cover;
+background-size:cover;  
+}
+
+.about-area, .port-area, .service-area, .contact-area{
+position:relative;
+display:flex;
+justify-content:space-around;
+align-items:left;
+align-text:left;
+flex-wrap:wrap;
+flex-directions:row;
+width:100%;
+height:700px;
+} 
+
+.text-part{
+font-size:50px;
+font-family: Audiowide;
+}
+p{
+font-size:24px;
+line-height:50px;
+}
+.about-area, .service-area{
+background:#fefefe;
+}
+.port-area, .contact-area{
+background:#262626;
+color:#fff;
+}
+html{
+scroll-behavior:smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
